@@ -1,0 +1,22 @@
+GENERAL
+Request URL: https://de.wikipedia.org/wiki/Ajax
+Request Method: GET
+Status Code: 200  (from disk cache)
+Remote Address: 91.198.174.192:443
+Referrer Policy: origin
+__________________________________________________________________________________________________
+RESPONSE HEADER
+Server: Apache
+Content-Language: en
+Content-Type: text/html; charset=UTF-8
+Content-Length: 1234
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+<body>
+ ...
+</body>
+</html>
+____________________________________

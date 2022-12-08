@@ -30,3 +30,12 @@ document.getElementById('loadItems').addEventListener('click', () => {
   xhttp.open('GET', '_items.html', true);
   xhttp.send();
 })
+//Видалення
+document.getElementById('deleteItems').addEventListener('click', () => {
+  const del = new XMLHttpRequest();
+  del.onload = function() {
+    document.getElementById('myList').innerHTML = this.responseText;
+  }
+  del.open('GET', 'Delete_items.html', true);
+  del.send();
+})
